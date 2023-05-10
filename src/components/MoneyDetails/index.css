@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.money-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 28px;
+  width: 100%;
+}
+
+.balance {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: #84cc16;
+  border-radius: 10px;
+  width: 200px;
+  margin: 10px;
+  flex-grow: 1;
+}
+
+.image {
+  width: 55px;
+  height: 55px;
+}
+
+.bal-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
