@@ -173,8 +173,11 @@ class MoneyManager extends Component {
                 id="type"
                 onChange={this.onChangeType}
               >
-                <option id="INCOME"> Income </option>
-                <option id="EXPENSE"> Expense </option>
+                {transactionTypeOptions.map(eachItem => (
+                  <option value={eachItem.optionId}>
+                    {eachItem.displayText}
+                  </option>
+                ))}
               </select>
             </div>
 
